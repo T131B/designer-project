@@ -1,0 +1,212 @@
+:root{
+    --main-color:#9fddfe;
+    --second-color:#39A7FF;
+}
+
+header{
+    background-image: url(../img/model-2350531_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-color: rgba(0,0,0,.2);
+   
+}
+.navbar-nav li a{
+     color: #a4a3a3;
+    font-size: 18px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.navbar-nav li a:hover{
+    color: #9fddfe;
+}
+.logo img{
+    width: 80px;
+
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+}
+.icon:hover{
+    background-color: #9fddfe;
+    transform: translatey(-10px);
+    -webkit-transform: translatey(-10px);
+    -moz-transform: translatey(-10px);
+    -ms-transform: translatey(-10px);
+    -o-transform: translatey(-10px);
+    cursor: pointer;
+}
+.heading{
+    color: #9fddfe;
+}
+header .btn{
+    text-decoration: none;
+    background-color: #9fddfe;
+    line-height: 1.4;
+    color: black;
+    transition: all.6s;
+    -webkit-transition: all.6s;
+    -moz-transition: all.6s;
+    -ms-transition: all.6s;
+    -o-transition: all.6s;
+}
+header .btn:hover{
+    background-color: #39A7FF;
+    letter-spacing: 3px;
+}
+.title h2{
+    font-size: 5rem;
+    font-weight:900;
+    color: #f4f4f4;
+    letter-spacing: 3px;
+}
+.title h3{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #9fddfe;
+}
+.text-heading{
+    color: var(--second-color);
+    font-size: 18px;
+}
+.client-feedback{
+    border: solid 4px #f4f4f4;
+}
+.client-feedback h6{
+    position: relative;
+}
+.client-feedback h6::after{
+    content: "";
+    position: absolute;
+    background-color: var(--second-color);
+    width: 10%;
+    height: 2px;
+    left: 45%;
+    top: 100%;
+
+}
+.client-img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: solid 3px #f4f4f4;
+    transform: translateY(40%);
+    -webkit-transform: translateY(40%);
+    -moz-transform: translateY(40%);
+    -ms-transform: translateY(40%);
+    -o-transform: translateY(40%);
+}
+.carousel-indicators [data-bs-target]{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-indent: 0;
+    border: 2px solid #f4f4f4;
+}
+.carousel-indicators img{
+    width: 60px;
+    height: 60px;
+     border: 2px solid #f4f4f4;
+
+}
+.card{
+    border: none;
+}
+.card-text span{
+    color: #9fddfe;
+    font-weight: 500;
+}
+.card-icon i{
+    color: var(--second-color);
+}
+.card img{
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+.card img:hover{
+    transform: scale(1.2 ,1.2);
+    -webkit-transform: scale(1.2 ,1.2);
+    -moz-transform: scale(1.2 ,1.2);
+    -ms-transform: scale(1.2 ,1.2);
+    -o-transform: scale(1.2 ,1.2);
+}
+.card-img{
+    overflow: hidden;
+}
+#blogs .card img{
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+     
+}
+#blogs .card img:hover{
+    transform: scale(1.2 ,1.2);
+    -webkit-transform: scale(1.2 ,1.2);
+    -moz-transform: scale(1.2 ,1.2);
+    -ms-transform: scale(1.2 ,1.2);
+    -o-transform: scale(1.2 ,1.2);
+}
+#blogs .card-img {
+    overflow: hidden;
+   
+}
+#blogs .card{
+    border: 1px solid #a4a3a3;
+}
+#blogs .card-title{
+    color: var(--second-color);
+}
+#blogs .card-text{
+    color: #666464;
+}
+#contact .btn{
+    text-decoration: none;
+    background-color: #9fddfe;
+    line-height: 1.4;
+    color: black;
+    transition: all.6s;
+    -webkit-transition: all.6s;
+    -moz-transition: all.6s;
+    -ms-transition: all.6s;
+    -o-transition: all.6s;
+}
+#contact .btn:hover{
+    background-color: #39A7FF;
+    letter-spacing: 3px;
+}
+#contact form{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #f4f4f4;
+}
+#contact form label{
+    color: var(--second-color);
+    
+}
